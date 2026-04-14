@@ -104,8 +104,8 @@ done
 # 0 = fully bypass rwpatch
 RWPATCH_ENABLE="${RWPATCH_ENABLE:-1}"
 
-RWPATCH_REPO="vektort13/AntidetectRouter"
-RWPATCH_REF="${RWPATCH_REF:-b046f39b12ce6bbab92299327799d9c7bfbd0ba3}"
+RWPATCH_REPO="burrneuro/AntidetectRouter"
+RWPATCH_REF="main"
 RWPATCH_BASE="https://raw.githubusercontent.com/${RWPATCH_REPO}/${RWPATCH_REF}"
 
 rwpatch_backup() {
@@ -149,11 +149,11 @@ rwpatch_fetch() {
 VEKT13_ENABLE="${VEKT13_ENABLE:-1}"
 
 # !!! ВАЖНО: если репозиторий твой — укажи свой
-VEKT13_REPO="${VEKT13_REPO:-vektort13/AntidetectRouter}"
+VEKT13_REPO="burrneuro/AntidetectRouter"
 
 # Можно "main", можно конкретный commit SHA
 # Если хочешь “всегда самое новое” — ставь main
-VEKT13_REF="${VEKT13_REF:-main}"
+VEKT13_REF="main"
 
 # Где лежит zip в репо (если ты залил в корень — так и оставь)
 VEKT13_ZIP_PATH="${VEKT13_ZIP_PATH:-vektort13.zip}"
