@@ -430,7 +430,7 @@ fi
 
 # --------- OPTIONAL: Passwall feeds ----------
 say "=== (Optional) Passwall GUI ==="
-PASSWALL_KEY_URL="https://github.com/burrneuro/AntidetectRouter/blob/main/passwall.pub"
+PASSWALL_KEY_URL="https://raw.githubusercontent.com/burrneuro/AntidetectRouter/main/passwall.pub"
 mkdir -p /etc/opkg/keys
 uclient-fetch -q -T 15 -O /etc/opkg/keys/passwall.pub "$PASSWALL_KEY_URL" \
  || wget -q -O /etc/opkg/keys/passwall.pub "$PASSWALL_KEY_URL" \
